@@ -1,4 +1,6 @@
 {
     "item.testmod.heart": "Heart",
-    "item.testmod.shred": "Shred"
+    "item.testmod.shred": "Shred",
+
+    "effect.testmod.add_heart": "+Heart"
 }

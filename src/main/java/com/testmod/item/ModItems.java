@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item SHRED = registerItem("shred", new Item(new FabricItemSettings()));
-    public static final Item HEART = registerItem("heart", new Item(new FabricItemSettings()));
+    public static final Item HEART = registerItem("heart", new Item(new FabricItemSettings().food(ModFoodComponents.HEART)));
 
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(SHRED);
